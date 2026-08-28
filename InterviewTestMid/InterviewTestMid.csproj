@@ -12,5 +12,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+	
+  <ItemGroup>
+   <InternalsVisibleTo Include="InterviewTestMid.Tests" />
+   <InternalsVisibleTo Include="DynamicProxyGenAssembly2" />  
+  </ItemGroup>
 
 </Project>
